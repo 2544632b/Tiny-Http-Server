@@ -49,6 +49,7 @@ int main() {
 
   // open the library
   cout << "Opening libhttp...\n";
+  // from server.ts, compile to libhttp.
   void* handle = dlopen("./libhttp.so", RTLD_LAZY);
 
   if (!handle) {
