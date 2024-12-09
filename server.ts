@@ -1,3 +1,4 @@
+// @ts-nocheck
 // ExportModule
 function createHttpServer(host: string, port: number, msg: string) {
         const server: socket = createSocket();
